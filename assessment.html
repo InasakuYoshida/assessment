@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あなたのいいところを診断</title>
+    <link rel="stylesheet" href="assessment.css">
+</head>
+
+<body>
+    <h1 id="header">あなたのいいところは？</h1>
+    <p>診断したい名前を入れてください</p>
+    <input type="text" id="user-name" size="40" maxlength="20" />
+    <!-- type：入力形式　size：入力欄の大きさ　maxlength：入力できる最大の文字数. idではJS内で編集できるようにしてある -->
+    <button id="assessment">診断する</button>
+    <div id="result-area"></div> <!-- divタグは特段なんの意味もない. CSSやJS内の識別しと思うようにする -->
+    <div id="tweet-area"></div>
+    <script src="assessment.js"></script>
+</body>
+
+</html>
