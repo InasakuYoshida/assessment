@@ -1,0 +1,18 @@
+body {
+    background-color: #04a6eb;  /* 値は16進数で指定.　光の三原色を2桁ずつ、合計6桁で表現している */
+    color: #fdffff;
+    width: 500px;  /* 画面の横幅を500pxに指定 */
+    margin-right: auto;  /* 画面の余白を自動調整 */
+    margin-left: auto;
+}
+
+button {
+    padding: 5px 20px;  /* 第一引数に当たる箇所は上下の余白　第二引数に当たる箇所は左右の余白. paddingは指定された場所の中の余白を設定するプロパティ */
+    background-color: #337ab7;
+    color: #fdffff;
+    border-style: none;  /* 境界線の指定 */
+}
+
+input {
+    height: 20px;
+}
